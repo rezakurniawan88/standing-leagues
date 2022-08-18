@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standings League</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="assets/images/bg1.jpg" alt="bg-banner">
+            <div class="banner-title">
+                <h1>Discover standings</h1>
+                <p>See various football standings across leagues</p>
+                <a href="#leagues"><button>See all</button></a>
+            </div>
+    </div>
+
+    <div id="leagues">
+        <h1>All Leagues</h1>
+        <div id="leagues-card">
+
+        </div>
+    </div>
+
+    
+    <div class="content-standings">
+        <button class="close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <div class="title">
+            <h1>Standings</h1>
+            <h3 id="league"></h3>
+        </div>
+        <div class="standings">
+            <table>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>Teams</td>
+                        <td>M</td>
+                        <td>W</td>
+                        <td>D</td>
+                        <td>L</td>
+                        <td>Pts</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="table_standings">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>2022 | All Leagues Standings</footer>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
